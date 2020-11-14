@@ -11,7 +11,7 @@ def main():
     parser.add_argument("--etype", help="Type of encryption to be used. Supported types: Fernet. Default: Fernet",
                         default="Fernet")
     parser.add_argument("--ftype", help="Type of file type. Supported types: JSON. Default: JSON", default="JSON")
-    parser.add_argument("--verbose", help="If added, prints out encrypted data", default=False)
+    parser.add_argument("--verbose", help="If added, prints out encrypted data", action="store_true", default=False)
     parser.add_argument("path",
                         help="Path to JSON file to be encrypted.",
                         metavar="P", type=str)
