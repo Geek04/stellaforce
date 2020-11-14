@@ -7,7 +7,7 @@ stellaforce [--help, -h] --key KEY [--etype ETYPE] --ftype [--ftype FTYPE] --ver
 positional arguments:
   P              Path to JSON file to be encrypted.
 
-optional arguments:
+keyword arguments:
   -h, --help     show this help message and exit
   --key KEY      Private key for data to be encrypted.
   --etype ETYPE  Type of encryption to be used. Supported types: Fernet.
