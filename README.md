@@ -13,4 +13,5 @@ keyword arguments:
   --etype ETYPE  Type of encryption to be used. Supported types: Fernet.
                  Default: Fernet
   --ftype FTYPE  Type of file type. Supported types: JSON. Default: JSON
-  --verbose      If added, prints out encrypted data```
+  --verbose      If added, prints out encrypted data
+  ```
