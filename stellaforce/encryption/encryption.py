@@ -1,10 +1,10 @@
 from cryptography.fernet import Fernet
 
 from stellaforce.utils import JSONLoader
-from .interfaces import IEncryptor
+from .interfaces import EncryptorProtocol
 
 
-class JSONFernetEncryptor(IEncryptor):
+class JSONFernetEncryptor(EncryptorProtocol):
     fernet_instance: Fernet
     schema: dict
 
