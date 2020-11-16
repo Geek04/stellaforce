@@ -1,5 +1,5 @@
 # stellaforce
-Basic protection for freelance projects.
+Simple data protection for freelance projects.
 
 # Usage (as a cmd-line program)
 ```
