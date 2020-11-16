@@ -15,3 +15,5 @@ keyword arguments:
   --ftype FTYPE  Type of file type. Supported types: JSON. Default: JSON
   --verbose      If added, prints out encrypted data
   ```
+
+(Will be added to PyPI soon...)
